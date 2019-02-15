@@ -13,8 +13,6 @@ export class SlydepayService {
   ) {}
   private baseUrl = 'https://app.slydepay.com.gh/api/merchant';
 
-  createAn;
-
   getlistOptions(): Observable<any> {
     return this.http.post(`${this.baseUrl}/invoice/payoptions`, this.config);
   }
