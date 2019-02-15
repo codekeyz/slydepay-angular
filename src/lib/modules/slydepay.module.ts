@@ -1,5 +1,6 @@
 import { ModuleWithProviders, NgModule } from '@angular/core';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { SlydePayConfigInterceptor } from '../helpers/slydepay.interceptor';
 
 export interface SlydepayConfig {
   emailOrMobileNumber: string;
@@ -18,6 +19,11 @@ export class SlydepayModule {
         {
           provide: 'config',
           useValue: config
+        },
+        {
+          provide: HTTP_INTERCEPTORS,
+          useClass: SlydePayConfigInterceptor,
+          multi: true
         }
       ]
     };
