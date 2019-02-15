@@ -1,6 +1,23 @@
 {
-  "name": "ng-slydepay",
-  "version": "0.0.1",
+  "name": "@codekeyz/ng-slydepay",
+  "version": "1.0.0",
+  "author": "Precious Keyz",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codekeyz/slydepay-angular"
+  },
+  "bugs": {
+    "url": "https://github.com/codekeyz/slydepay-angular/issues"
+  },
+  "homepage": "https://github.com/codekeyz/slydepay-angular",
+  "keywords": [
+    "angular",
+    "typescript",
+    "slydepay",
+    "payment-sdk",
+    "hover software solutions"
+  ],
+  "license": "MIT",
   "peerDependencies": {
     "@angular/common": "^7.2.0",
     "@angular/core": "^7.2.0"
