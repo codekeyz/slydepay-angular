@@ -1,6 +1,6 @@
 {
-  "name": "@codekeyz/ng-slydepay",
-  "version": "1.0.0",
+  "name": "ng-slydepay",
+  "version": "0.1.0",
   "author": "Precious Keyz",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "angular",
     "typescript",
     "slydepay",
-    "payment-sdk",
+    "invoice",
     "hover software solutions"
   ],
   "license": "MIT",

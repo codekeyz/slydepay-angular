@@ -1,8 +1,17 @@
-# Angular Slydepay `@codekeyz/ng-slydepay`
+<p align="center">
+  <h1 align="center">Angular Slydepay</h1>
+  <p align="center">The Unofficial library for SlydePay and Angular</p>
+</p>
 
-An Angular 7 wrapper around the SlydePay Invoice API. Feel free to use in your projects. I am happy when you do.
+## Installation
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.2.0.
+```bash
+npm i ng-slydepay
+```
+
+## Example use:
+
+Working on it, will be available pretty soon.
 
 ## Further help
 
